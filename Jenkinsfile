@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Checkout') {
             steps {
-                git branch:'master', url: 'PUT UR OWN GITHUB LINK HERE'
+                git branch:'master', url: 'https://github.com/kevanO297/vulnado'
             } 
         }
         stage ('Build') { 
